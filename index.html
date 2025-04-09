@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NaijaSkies</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>NaijaSkies</h1>
+
+        <p>Get real-time weather update for cities across Nigeria</p>
+
+        <input type="text" id="city-input" placeholder="Enter city name (e.g., Lagos)">
+
+        <button onclick="getWeather()">Search</button>
+
+        <div id="toggle">
+
+            <label for="unit-toggle">°C / °F:</label>
+
+            <input type="checkbox" id="unit-toggle" onclick="toggleUnits()">
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section id="weather-info">
+
+            <div class="card" id="current-weather">
+
+                <h2>Current Weather</h2>
+
+                <div id="current-weather-details">Enter a city to see the weather</div>
+
+            </div>
+
+            <div class="card" id="forecast">
+
+                <h2>5-Day Forecast</h2>
+
+                <div id="forecast-details">Forecast data will appear here</div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
