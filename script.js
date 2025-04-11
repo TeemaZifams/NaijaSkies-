@@ -1,5 +1,5 @@
 
-const apiKey = '9f228a1be2486f6c5e8e584143acace3 ';  // Replace with your OpenWeatherMap API key
+const apiKey = 'c8912625c348ad5ab840990a5f3c44f2';  // Replace with your OpenWeatherMap API key
 let isMetric = true; // Toggle between Celsius and Fahrenheit
 
 // Toggle temperature units
